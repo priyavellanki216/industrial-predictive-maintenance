@@ -1,3 +1,8 @@
+/**
+ * FORGESENSE DESIGN REMINDER — Signal Workshop: a composed Swiss-industrial
+ * experience with graphite materiality, precise teal diagnostics, and amber
+ * reserved for operational risk.
+ */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
@@ -27,7 +32,7 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>
